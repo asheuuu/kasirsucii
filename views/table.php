@@ -14,25 +14,24 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
+                                            <th>no antrian</th>
+                                            <th>Nama pasien</th>
+                                            <th>dokter</th>
+                                            <th>keluhan</th> 
+                                            <th>Obat</th>
+
                                         </tr>
                                     </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Age</th>
-                                            <th>Start date</th>
-                                            <th>Salary</th>
-                                        </tr>
+                                   
                                     </tfoot>
                                     <tbody>
+                                        <tr>
+                                            <td>001</td>
+                                            <td>wina</td>
+                                            <td>eko</td>
+                                            <td>sakit perut</td>
+                                            <td>oralit</td>
+                                        </tr>
 </tbody>
 </table>
 </div>
