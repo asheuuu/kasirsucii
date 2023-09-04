@@ -26,4 +26,7 @@ $login = new c_login();
 
         $login->login($email, $pass);
     }
+    elseif ($_GET['aksi'] == "logout"){
+        $login->logout();
+    }
 ?>

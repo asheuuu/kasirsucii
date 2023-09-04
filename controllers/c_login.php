@@ -95,16 +95,11 @@ class C_login{
         
         //membuat fungsi untuk logout user
         public function logout(){
-            
+        session_destroy();
+        header("location: ../views/template/login.php");
+        exit;    
         }
     }
 
     
-
-    
-
-
-
-
-
 ?>
