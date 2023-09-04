@@ -8,8 +8,8 @@ class C_koneksi{
     // ini ada fungsi atau method yang bernama connection dan fungsi harus ada didalam kelas 
     public function conn(){ 
 
-        // membuat fungsi untuk terkoneksi kedalam database klinik_xiirpl3
-        $conn = mysqli_connect('localhost','root','','klinik_xiirpl3');
+        // membuat fungsi untuk terkoneksi kedalam database klinikxiirpl3
+        $conn = mysqli_connect('localhost','root','','klinikxiirpl3');
 
         //untuk mengecek apakah koneksi berhasil dibuat atau tidak
         if (!$conn) {
