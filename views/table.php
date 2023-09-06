@@ -32,6 +32,14 @@
                                             <td>sakit perut</td>
                                             <td>oralit</td>
                                         </tr>
+
+                                        <tr>
+                                            <td>002</td>
+                                            <td>ucie</td>
+                                            <td>liam</td>
+                                            <td>sakit kepala</td>
+                                            <td>paramex</td>
+                                        </tr>
 </tbody>
 </table>
 </div>
