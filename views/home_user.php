@@ -2,7 +2,7 @@
 
 
     //modular untuk memanggil file dari folder template
-    session_start();
+    // session_start();
 
     include_once 'template/header.php';
     include_once 'template/sidebar.php';
