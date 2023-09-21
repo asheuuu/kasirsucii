@@ -28,7 +28,7 @@ $barang = new C_barang();
                     <div class="col-lg-2"></div>
                         <div class="col-lg-8">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Tambah Barang</h1>
+                                <h1 class="h4 text-gray-900 mb-4">Edit Barang</h1>
                             </div>
                             <form action="../routers/r_barang.php?aksi=update" method="POST" class="user" enctype="multipart/form-data">
 

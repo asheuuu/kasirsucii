@@ -3,7 +3,7 @@
     include_once 'template/header.php';
     include_once 'template/sidebar.php';
     include_once 'template/topbar.php';
-   include_once '../controllers/C_barang.php';
+    include_once '../controllers/C_barang.php';
 
 $market = new C_barang();
 
@@ -49,25 +49,20 @@ $market = new C_barang();
 
 
                                         <td>
-                                        <center>
+                                    <center>
                                         <a href="V_edit_barang.php?id=<?= $b->id ?>"><button type="button" class="btn btn-round btn-primary">Edit</button></a>
-                                        </center>
+
+                                        <a onclick="return confirm('apakah yakin data akan di hapus?')"href="../routers/r_barang.php?id=<?= $b->id ?>&aksi=hapus"><button type="button" class="btn btn-round btn-danger">Hapus</button></a>
+                                        
+                                    </center>
                                         </td>
                                     </tr>
                                     
                                         <?php } ?>
-                                    <tfoot>
-                                        <tr>
-                                            <th>No</th>
-                                            <th>nama_barang</th>
-                                            <th>stock</th>
-                                            <th>harga</th>
-                                            <th>photo</th>
-                                            <th>Action</th>
-                                        </tr>
+
                                     </tbody>
                                     
-                                    </tfoot>
+
                                 </table>
                             </div>
                         </div>
