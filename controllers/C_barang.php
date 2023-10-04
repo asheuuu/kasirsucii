@@ -22,7 +22,7 @@ class C_barang{
     public function tambah($id, $nama_barang, $stock, $harga, $photo) {
         $conn = new C_koneksi ();
         
-        $sql = "INSERT INTO barang VALUES('$id','$nama_barang','$stock','$harga',' $photo')";
+        $sql = "INSERT INTO barang VALUES('$id','$nama_barang','$stock','$harga','$photo')";
         $query = mysqli_query($conn->conn(), $sql);
     if ($query){
         echo "<script>alert('Data Berhasil Di Tambahkan');window.location='../views/V_barang.php'</script>";
@@ -36,7 +36,7 @@ class C_barang{
 
         $conn = new C_koneksi();
         
-        $sql = "SELECT * FROM barang WHERE id= '$id'";
+        $sql = "SELECT * FROM barang WHERE id = '$id'";
         
         $query = mysqli_query($conn->conn(), $sql);
 
@@ -49,6 +49,7 @@ class C_barang{
     }
 
     public function update($id, $nama_barang, $stock, $harga, $photo) {
+        
         $conn = new C_koneksi ();
         
         $sql = "UPDATE barang SET nama_barang = '$nama_barang', stock = '$stock' , harga = '$harga' , photo = '$photo' WHERE id = '$id'";

@@ -45,7 +45,12 @@ $market = new C_barang();
                                         <td><?php echo $b->nama_barang?></td>
                                         <td><?php echo $b->stock?></td>
                                         <td><?php echo $b->harga?></td>
-                                        <td><?php echo $b->photo?></td>
+
+                                        <td>
+                                            <div style="display: flex; justify-content: center; align-items: center;">
+                                            <img src="<?= "../assets/img/".$b->photo; ?>" alt="<?= $b->nama_barang ?>" width="50" height="65">
+                                        </div>
+                                        </td>
 
 
                                         <td>

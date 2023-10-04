@@ -51,8 +51,8 @@ include_once 'template/topbar.php';
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="file" class="form-control-file" id="Photo"
-                                        placeholder="Photo" name="Photo">
+                                    <input type="file" class="form-control-file" id="photo"
+                                        placeholder="Photo" name="photo">
                                 </div>
 
                                 <!-- <a href="login.html" class="btn btn-primary btn-user btn-block">

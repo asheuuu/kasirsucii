@@ -28,7 +28,6 @@ class C_login{
         
         }
         
-        
 
     //membuat fungsi untuk login user
     public function login($email, $pass){
